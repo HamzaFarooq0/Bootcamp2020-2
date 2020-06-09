@@ -6,7 +6,11 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App name="Hamza" course="React"/>
+    <br />
+    <App name="Hamza" course="Redux"/>
+    <br />
+    <App name="Hamza" course="Nodejs"/>
   </React.StrictMode>,
   document.getElementById('root')
 );

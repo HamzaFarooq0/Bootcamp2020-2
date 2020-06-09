@@ -1,12 +1,9 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+function App(props) {
   return (
     <div>
-      <h1>Hello, World!</h1>
-      <p>Welcome to code with React using Workflow</p>
-
+      <h1>Hi, Myself {props.name} I am very dedicated and enthusiastic to to learn {props.course}.</h1>
     </div>
   );
 }
